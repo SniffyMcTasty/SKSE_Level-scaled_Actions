@@ -3,7 +3,7 @@
 Level Scaled Actions is an SKSE/CommonLibSSE NG plugin experiment for Skyrim Special Edition.
 The goal is to scale movement and action behavior with the player's level, creating a progression layer where the character's physical responsiveness can evolve over a long playthrough.
 
-This repository currently contains the cleaned Responsive Combat SKSE template with the project renamed for this mod. The gameplay implementation still needs to be designed and built.
+The initial SKSE plugin scaffold is in place, based on the Responsive Combat template. Gameplay functionality is planned but not yet implemented.
 
 When loaded successfully, the plugin prints this message to the in-game console after data load:
 
