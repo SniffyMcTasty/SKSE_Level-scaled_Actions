@@ -1,9 +1,11 @@
 # Level Scaled Actions
 
 Level Scaled Actions is an SKSE/CommonLibSSE NG plugin experiment for Skyrim Special Edition.
-The goal is to scale movement and action behavior with the player's level, creating a progression layer where the character's physical responsiveness can evolve over a long playthrough.
+It is intended as a gameplay supplement to the existing movement system and Dodge MCO (DMCO), adding configurable level-based scaling for locomotion, dodge speed and distance, and action speed. The goal is a gradual sense of physical progression with diminishing returns and configurable limits, while leaving the level-1 baseline unchanged.
 
-The initial SKSE plugin scaffold is in place, based on the Responsive Combat template. Gameplay functionality is planned but not yet implemented.
+The initial SKSE plugin scaffold is in place. Gameplay functionality is planned but not yet implemented.
+
+DMCO is the initial dodge integration target. Movement and animation overrides will supplement the underlying system; exact dependencies and supported versions will be established during implementation. The current plugin only verifies SKSE loading and does not yet alter movement or animations.
 
 When loaded successfully, the plugin prints this message to the in-game console after data load:
 
